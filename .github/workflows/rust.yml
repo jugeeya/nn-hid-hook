@@ -45,8 +45,3 @@ jobs:
           Beta built off of the latest code in the repository. 
         files: >
           plugin/libnn_hid_hook.nro
-    - name: Upload zip as artifact
-      uses: actions/upload-artifact@v1
-      with:
-        name: full_build
-        path: training_modpack_beta.zip
